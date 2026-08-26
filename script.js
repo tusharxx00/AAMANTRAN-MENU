@@ -94,7 +94,7 @@ const chinese = [
 // ROTI / NAAN / PARATHA
 const roti = [
     ["Tandoori Roti", 25],
-    ["Butter Tandoori Roti", 35],
+    ["Butter Tandoori Roti", 40],
     ["Plain Naan", 50],
     ["Butter Naan", 60],
     ["Garlic Naan", 80],
