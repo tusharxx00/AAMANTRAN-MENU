@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #071f16;
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 35px 15px;
+    background: #08251a;
+    border-bottom: 2px solid #d4af37;
+}
+
+header h1 {
+    color: #d4af37;
+    font-size: 34px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* MENU */
+
+.menu {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* SECTION */
+
+.section {
+    margin-top: 35px;
+}
+
+.section-title {
+    color: #d4af37;
+    font-size: 24px;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* PRICE HEADER */
+
+.price-head {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px;
+
+    padding: 8px 18px;
+
+    color: #d4af37;
+    font-size: 13px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.price-head span:first-child {
+    text-align: left;
+}
+
+/* FOOD */
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px;
+
+    align-items: center;
+
+    background: #12382a;
+
+    padding: 15px 18px;
+    margin-bottom: 10px;
+
+    border: 1px solid #8f7625;
+    border-radius: 9px;
+}
+
+.item h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.item strong {
+    color: #ffd700;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* SINGLE PRICE */
+
+.single-item {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+
+    align-items: center;
+
+    background: #12382a;
+
+    padding: 15px 18px;
+    margin-bottom: 10px;
+
+    border: 1px solid #8f7625;
+    border-radius: 9px;
+}
+
+.single-item h3 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.single-item strong {
+    color: #ffd700;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 35px 15px;
+    border-top: 1px solid #d4af37;
+    margin-top: 30px;
+    color: #d4af37;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    .menu {
+        padding: 12px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .price-head {
+        grid-template-columns: 1fr 70px 70px;
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    .item {
+        grid-template-columns: 1fr 70px 70px;
+        padding: 14px 10px;
+    }
+
+    .item h3 {
+        font-size: 15px;
+    }
+
+    .item strong {
+        font-size: 14px;
+    }
+
+    .single-item {
+        grid-template-columns: 1fr 70px;
+        padding: 14px 10px;
+    }
+
+    .single-item h3 {
+        font-size: 15px;
+    }
+
+    .single-item strong {
+        font-size: 14px;
+    }
+}
