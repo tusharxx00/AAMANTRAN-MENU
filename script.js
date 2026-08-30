@@ -16,7 +16,7 @@ const northIndian = [
     ["Mix Veg", 130, 220],
     ["Matar Paneer", 140, 240],
     ["Shahi Paneer", 160, 280],
-    ["Kadhai Paneer", 160, 280],
+    ["Kadhai Paneer", 160, 240],
     ["Paneer Butter Masala", 160, 280],
     ["Paneer Do Pyaza", 160, 280],
     ["Paneer Handi", 160, 280],
